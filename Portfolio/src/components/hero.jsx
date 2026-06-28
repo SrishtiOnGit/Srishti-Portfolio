@@ -12,8 +12,26 @@ const Hero = () => {
         overlook. Every project here started with curiosity.
       </p>
       <div className="button-group">
-        <button className="hero-btn">View Projects</button>
-        <button className="hero-contact">Contact</button>
+        <button
+          className="hero-btn "
+          onClick={() => {
+            document.getElementById("projects")?.scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
+        >
+          View Projects
+        </button>
+        <button
+          className="hero-contact"
+          onClick={() => {
+            document
+              .getElementById("contact")
+              ?.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Contact
+        </button>
       </div>
 
       <div className="social-links">

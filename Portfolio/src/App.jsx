@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 function App() {
   console.log(Navbar);
   return (
-    <>
+    <section id="home">
       <Navbar />
       <Hero />
       <About />
@@ -18,9 +18,9 @@ function App() {
 
       <div className="footer">
         <p>Made with ❤️ by Srishti</p>
-        <a href="/">Back to Top</a>
+        <a href="#home">Back to Top</a>
       </div>
-    </>
+    </section>
   );
 }
 
