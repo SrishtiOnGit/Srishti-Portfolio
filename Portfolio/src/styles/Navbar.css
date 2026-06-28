@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: var(--bg);
+  position: fixed;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav-item a {
+  font-family: var(--font-body);
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 15px;
+  color: var(--gold);
+  transition: var(--transition);
+}
+
+.nav-item a:hover {
+  color: var(--text);
+  transition: var(--transition);
+}
