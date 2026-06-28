@@ -4,3 +4,29 @@
   box-sizing: border-box;
   background-color: var(--bg);
 }
+
+.footer {
+  margin-top: 20px;
+  background-color: var(--surface);
+  color: var(--text);
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  margin: 0;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer a {
+  background-color: transparent;
+  margin-left: 500px;
+  color: var(--gold);
+  text-decoration: none;
+}

@@ -18,9 +18,6 @@ const Navbar = () => {
         <li className="nav-item">
           <a href="#contact">Contact</a>
         </li>
-        <li className="nav-item">
-          <a href="#wall">Wall</a>
-        </li>
       </ul>
     </div>
   );

@@ -1,0 +1,107 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text);
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.skills-title {
+  font-family: var(--font-heading);
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: var(--gold);
+  line-height: 1.1;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.skills-title-02 {
+  font-style: italic;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.skills-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.skills-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  padding: 2.5rem;
+  border-radius: 12px;
+  transition: var(--transition);
+  box-sizing: border-box;
+}
+
+.category-title {
+  background-color: transparent;
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--gold);
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.skills-list {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-item {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 100%;
+}
+.skill-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: transparent;
+}
+.skill-name {
+  background-color: transparent;
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  min-width: 110px;
+  text-align: left;
+}
+
+.progress-bar-bg {
+  background-color: rgba(255, 255, 255, 0.08);
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  background-color: var(--gold);
+  height: 100%;
+  border-radius: 2px;
+  width: var(--progress-width, 0%);
+  transition: width 1s ease-in-out;
+}
