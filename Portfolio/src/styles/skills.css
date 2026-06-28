@@ -99,9 +99,9 @@
 }
 
 .progress-bar-fill {
+  width: var(--progress-width);
   background-color: var(--gold);
   height: 100%;
   border-radius: 2px;
-  width: var(--progress-width, 0%);
   transition: width 1s ease-in-out;
 }

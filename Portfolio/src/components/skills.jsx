@@ -36,7 +36,10 @@ const Skills = () => {
                   <span className="skill-name">{skill.name}</span>
 
                   <div className="progress-bar-bg">
-                    <div className="progress-bar-fill"></div>
+                    <div
+                      className="progress-bar-fill"
+                      style={{ "--progress-width": skill.level }}
+                    ></div>
                   </div>
                 </div>
               ))}
